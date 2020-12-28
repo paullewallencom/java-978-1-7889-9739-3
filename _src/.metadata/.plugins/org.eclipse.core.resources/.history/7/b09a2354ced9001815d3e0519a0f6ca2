@@ -1,0 +1,11 @@
+package com.test.test;
+
+public class Train {
+
+	String name;
+	
+	public Train(String n) {
+		this.name = n;
+	}
+	
+}

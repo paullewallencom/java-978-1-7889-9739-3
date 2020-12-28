@@ -1,0 +1,14 @@
+//Default constructor(No argument Constructor)
+package constructors;
+
+public class Car {
+	String name;
+	Car(){
+		name= "BMW";
+	}
+	
+	public static void main(String[] args) {
+		Car2 carObj = new Car2();
+		System.out.println(carObj.name);
+	}
+}

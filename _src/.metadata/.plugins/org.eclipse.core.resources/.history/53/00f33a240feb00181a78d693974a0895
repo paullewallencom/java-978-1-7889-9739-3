@@ -1,0 +1,10 @@
+package methodoverloading;
+
+public class MethodOverloading {
+
+	public static void main(String[] args) {
+		Calculator calcObj = new Calculator();
+		calcObj.addNumbers(5, 6);
+	
+	}
+}

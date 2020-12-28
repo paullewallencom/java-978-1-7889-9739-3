@@ -1,0 +1,18 @@
+package com.test.test1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Car redCar = new Car("red","gas");
+		redCar.fill("Gas");
+		System.out.println("car Color: "+redCar.color);
+		System.out.println("car Type: "+redCar.type);
+		System.out.println("Emptying");
+		redCar.empty();
+		System.out.println("car Type: "+redCar.type);
+		System.out.println("Filling petrol");
+		redCar.fill("petrol");
+		System.out.println("car Type: "+redCar.type);
+	}
+
+}

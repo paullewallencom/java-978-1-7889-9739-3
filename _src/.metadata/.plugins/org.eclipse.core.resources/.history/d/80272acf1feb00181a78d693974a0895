@@ -1,0 +1,11 @@
+package encapsulation;
+
+public class Car {
+
+	private String carName = "BMW";
+
+	public String getCarName() {
+		return this.carName;
+	}
+	
+}

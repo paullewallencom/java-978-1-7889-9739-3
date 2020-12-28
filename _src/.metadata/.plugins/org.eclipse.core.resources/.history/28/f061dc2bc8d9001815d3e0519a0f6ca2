@@ -1,0 +1,16 @@
+package com.test.otherpackage;
+
+public class Bus {
+	
+	String name;
+	String color;
+	String type;
+	
+	public Bus(String name, String color, String type) {
+		this.name = name;
+		this.color = color;
+		this.type = type;
+	}
+	
+	
+}

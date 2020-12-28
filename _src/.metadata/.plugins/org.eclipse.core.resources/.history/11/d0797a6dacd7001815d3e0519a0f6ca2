@@ -1,0 +1,19 @@
+package com.test.test1;
+
+public class Car {
+
+	String color;
+	String type;
+	
+	Car(){
+		
+	}
+	
+	void fill(String fuel){
+		this.type = fuel;
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

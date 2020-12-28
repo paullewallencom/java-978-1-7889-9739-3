@@ -1,0 +1,13 @@
+package com.test.test;
+
+public class Train {
+
+	String name;
+	String color;
+	
+	
+	
+	
+
+	
+}

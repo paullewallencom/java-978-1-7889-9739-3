@@ -1,0 +1,15 @@
+package encapsulation;
+
+public class Car {
+
+	private String carName;
+
+	public String getName() {
+		return carName;
+	}
+
+	public void setName(String name) {
+		this.carName = name;
+	}
+	
+}

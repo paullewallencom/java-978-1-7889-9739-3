@@ -1,0 +1,14 @@
+package constructors;
+
+public class Car {
+	String name;
+	Car(){
+		name= "BMW";
+	}
+	
+	public static void main(String[] args) {
+		Car carObj = new Car();
+		System.out.println(carObj.name);
+	}
+}
+

@@ -1,0 +1,11 @@
+package inheritance;
+
+public class Bike extends Vehicle {
+	String name;
+	String color;
+	
+	public Bike(String name,String color,String gear) {
+		this.name = name;
+		this.color = color;
+	}
+}

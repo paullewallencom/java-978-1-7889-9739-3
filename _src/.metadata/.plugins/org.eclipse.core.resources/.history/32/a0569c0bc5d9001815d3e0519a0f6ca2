@@ -1,0 +1,22 @@
+package com.test.test1;
+
+public class Car {
+	
+	String name;
+	String color;
+	String fuelType;
+	
+	public Car(String name, String color) {
+		this.name = name;
+		this.color = color;
+	}
+	
+	void fillFuel(String fuelType){
+		this.fuelType = fuelType;
+	}
+	
+	void empty(){
+		this.fuelType ="";
+	}
+
+}

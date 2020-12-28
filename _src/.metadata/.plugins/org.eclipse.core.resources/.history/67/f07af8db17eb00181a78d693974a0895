@@ -1,0 +1,9 @@
+package inheritanceMultiple;
+
+public class FourWheeler extends Bike{
+
+	int noOfWheels;
+	public FourWheeler() {
+		noOfWheels = 4;
+	}
+}

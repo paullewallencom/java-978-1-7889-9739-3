@@ -1,0 +1,5 @@
+package com.test.otherpackage;
+
+public class Bus {
+
+}

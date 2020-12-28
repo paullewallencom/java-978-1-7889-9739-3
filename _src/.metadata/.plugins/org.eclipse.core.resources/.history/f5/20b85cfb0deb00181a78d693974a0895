@@ -1,0 +1,14 @@
+package methodoverloading;
+public class Calculator {
+
+	void addNumbers(int a , int b) {
+		int x = a+b;
+		System.out.println("a + b = "+x);
+	}
+	
+	void addNumbers(int a , int b, int c) {
+		int x = a+b+c;
+		System.out.println("a + b = : "+x);
+	}
+	
+}

@@ -1,0 +1,9 @@
+package inheritanceHierarchical;
+
+public class fourWheeler extends Bike{
+
+	int noOfWheels;
+	public fourWheeler() {
+		noOfWheels = 2;
+	}
+}

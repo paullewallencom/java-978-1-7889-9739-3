@@ -1,0 +1,17 @@
+package com.test.test;
+
+public class Train {
+
+	String name;
+	String color;
+	a+545;
+	
+	void running() {
+		System.out.println("name : "+this.name);
+	}
+	
+	
+	
+
+	
+}

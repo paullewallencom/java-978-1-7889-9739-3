@@ -1,0 +1,12 @@
+package constructors;
+
+public class Car {
+
+	Car(){
+		
+	}
+	public static void main(String[] args) {
+
+	}
+
+}

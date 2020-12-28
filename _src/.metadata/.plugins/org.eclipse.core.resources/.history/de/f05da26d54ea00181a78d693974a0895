@@ -1,0 +1,8 @@
+package constructors;
+
+public class Car {
+	String name;
+	Car(){
+		name = "BMW";
+	}
+}

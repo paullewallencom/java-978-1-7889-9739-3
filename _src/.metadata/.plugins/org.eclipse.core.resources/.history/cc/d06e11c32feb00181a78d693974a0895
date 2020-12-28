@@ -1,0 +1,16 @@
+package exceptions;
+
+public class UnHandledException {
+
+	public static void main(String[] args) {
+
+		try {
+
+			int data = 100 / 0;  //code that may raise exception
+		} catch (ArithmeticException e) {
+			System.out.println(e);
+		}
+		System.out.print("rest of the code...");
+	}
+
+}

@@ -1,0 +1,21 @@
+package inheritanceHierarchical;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+//		Bike bike = new Bike();
+//		bike.name = "hero";
+//		bike.color = "Red";
+//		
+//		System.out.println("Bike name :"+bike.name);
+//		System.out.println("Bike color :"+ bike.color);
+		
+		FourWheeler fourWheeler = new FourWheeler();
+		fourWheeler.name="Skoda";
+		fourWheeler.color="black";
+
+		System.out.println("no of Wheels: "+ fourWheeler.noOfWheels);
+		System.out.println("name : "+ fourWheeler.name);
+		System.out.println("color : "+ fourWheeler.color);
+	}
+}

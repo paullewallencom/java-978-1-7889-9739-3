@@ -1,0 +1,19 @@
+package encapsulation;
+
+class Car {
+
+	private String carName = "BMW";
+
+	public String getCarName() {
+		return this.carName;
+	}
+	
+}
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		MainClass car = new MainClass();
+		System.out.println("car name is :"+car.getCarName());
+	}
+}

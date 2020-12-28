@@ -1,0 +1,6 @@
+package inheritanceMultiple;
+
+public class Vehicle {
+
+	String color;
+}

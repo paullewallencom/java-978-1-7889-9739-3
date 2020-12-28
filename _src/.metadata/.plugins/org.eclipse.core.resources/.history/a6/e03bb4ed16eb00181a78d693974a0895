@@ -1,0 +1,13 @@
+package abstraction;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Calculator cal = new MyCalc();
+		cal.add();
+		cal.multiply();
+		
+	
+	}
+}

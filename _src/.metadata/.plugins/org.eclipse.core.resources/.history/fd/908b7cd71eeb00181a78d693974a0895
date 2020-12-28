@@ -1,0 +1,10 @@
+package encapsulation;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Car car = new Car();
+		car.setName("BMW");
+		System.out.println("car name is :"+car.getName());
+	}
+}
